@@ -27,10 +27,10 @@ mekanizmayı kullanır. Geriye akış, akışın tersine gitmesine izin verir ve
 güncelleyerek, daha fazla artış yolunu keşfetme olasılığını artırır. Bu süreç, hedef düğüme 
 ulaşılamayana kadar tekrarlanır.
 Algoritmanın çalışma mantığı şu şekildedir:
- Öncelikle, akış ağı bir Ford-Fulkerson algoritması kullanılarak en az bir akışa sahiptir.
- Ardından, BFS algoritması kullanılarak, mevcut akışı artırabilecek en kısa yol bulunur.
- Bu yol boyunca, akışın mümkün olduğunca fazla artırılmasına çalışılır.
- Bu işlem, mevcut akışın maksimum akıya ulaştığına kadar tekrarlanır.
+ •Öncelikle, akış ağı bir Ford-Fulkerson algoritması kullanılarak en az bir akışa sahiptir.
+ •Ardından, BFS algoritması kullanılarak, mevcut akışı artırabilecek en kısa yol bulunur.
+ •Bu yol boyunca, akışın mümkün olduğunca fazla artırılmasına çalışılır.
+ •Bu işlem, mevcut akışın maksimum akıya ulaştığına kadar tekrarlanır.
 Veri iletimi, lojistik planlama, su kaynakları yönetimi, yazılım optimizasyonu, proje yönetimi, 
 enerji dağıtımı, biyoinformatik ve oyun teorisi gibi çeşitli alanlarda uygulanabilir. EdmondsKarp algoritması, maksimum akış problemlerine pratik ve etkili çözümler sunarak, birçok 
 endüstri ve disiplinde geniş bir kullanım yelpazesi sunar.
